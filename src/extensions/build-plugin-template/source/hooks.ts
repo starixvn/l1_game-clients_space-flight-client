@@ -56,27 +56,17 @@ export const onAfterCompressSettings: BuildHook.onAfterCompressSettings = async 
 
 export const onAfterBuild: BuildHook.onAfterBuild = async function (options: ITaskOptions, result: IBuildResult) {
     // change the uuid to test
+    const ccUrl = `https://l1-proxy1.lumigame.com/game/static/_cocos-shared/cc.js`;
     const indexFile = result.paths["indexJs"];
     console.log("after build indexFile", indexFile);
     const data = fs.readFileSync(indexFile, "utf8");
-    const newData = data.replace(
-        `topLevelImport('cc')`,
-        `topLevelImport('https://l1-proxy1.lumigame.com/game/static/_cocos-shared/cc.js')`
-    );
+    const newData = data.replace(`topLevelImport('cc')`, `topLevelImport('${ccUrl}')`);
     fs.writeFileSync(indexFile, newData, "utf8");
 
-    // const uuidTestMap = {
-    //     image: "57520716-48c8-4a19-8acf-41c9f8777fb0",
-    // };
-    // for (const name of Object.keys(uuidTestMap)) {
-    //     const uuid = uuidTestMap[name];
-    //     console.debug(`containsAsset of ${name}`, result.containsAsset(uuid));
-    //     console.debug(`getAssetPathInfo of ${name}`, result.getAssetPathInfo(uuid));
-    //     console.debug(`getRawAssetPaths of ${name}`, result.getRawAssetPaths(uuid));
-    //     console.debug(`getJsonPathInfo of ${name}`, result.getJsonPathInfo(uuid));
-    // }
-    // test onError hook
-    // throw new Error('Test onError');
+    const importMapFile = result.paths["cache"]["importMap"];
+    console.log("importMapFile: " + importMapFile);
+    const mapData = `{"imports":{"cc":"${ccUrl}"}}`;
+    fs.writeFileSync(importMapFile, mapData, "utf8");
 };
 
 export const unload: BuildHook.unload = async function () {
