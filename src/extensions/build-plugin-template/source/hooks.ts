@@ -56,7 +56,7 @@ export const onAfterCompressSettings: BuildHook.onAfterCompressSettings = async 
 
 export const onAfterBuild: BuildHook.onAfterBuild = async function (options: ITaskOptions, result: IBuildResult) {
     // change the uuid to test
-    const ccUrl = `https://l1-client.lumigame.com/shared-resources/cocos-engine/2d/cc.js`;
+    const ccUrl = `https://l1-proxy1.lumigame.com/shared-resources/cocos-engine/2d/cc.js`;
     const indexFile = result.paths["indexJs"];
     console.log("after build indexFile", indexFile);
     const data = fs.readFileSync(indexFile, "utf8");
