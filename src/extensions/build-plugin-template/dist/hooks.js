@@ -56,7 +56,7 @@ exports.onAfterCompressSettings = onAfterCompressSettings;
 const onAfterBuild = function (options, result) {
     return __awaiter(this, void 0, void 0, function* () {
         // change the uuid to test
-        const ccUrl = `https://l1-proxy1.lumigame.com/game/static/_cocos-shared/cc.js`;
+        const ccUrl = `https://l1-client.lumigame.com/shared-resources/cocos-engine/2d/cc.js`;
         const indexFile = result.paths["indexJs"];
         console.log("after build indexFile", indexFile);
         const data = fs_extra_1.default.readFileSync(indexFile, "utf8");
