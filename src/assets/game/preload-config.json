@@ -1,0 +1,32 @@
+{
+    "others": { "resources": [] },
+    "localized": {
+        "resources": {
+            "1": [
+                "btn_bet_accepted",
+                "btn_cashout",
+                "btn_text_cancelbet",
+                "btn_text_stop_autoplay",
+                "btn_waiting",
+                "crashed",
+                "pop_up_bet_amount",
+                "text_auto_cashout_popup",
+                "text_auto_play",
+                "text_bet_amount",
+                "text_bet_accepted",
+                "text_bet_is_accepted",
+                "text_cashout",
+                "text_clear",
+                "text_close",
+                "text_confirm",
+                "text_copy",
+                "text_currentmultiplier",
+                "text_md5_key",
+                "text_multiplier",
+                "text_number_of_auto",
+                "text_result",
+                "text_total_win"
+            ]
+        }
+    }
+}
