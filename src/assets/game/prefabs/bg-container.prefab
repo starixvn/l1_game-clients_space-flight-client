@@ -420,7 +420,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -534,7 +533,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "4a46565e-fea6-4e2f-b228-8e9816eba4cf@f9941",
+      "__uuid__": "7733cad4-d478-4375-ab09-bd1ac460c72c@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -867,7 +866,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,

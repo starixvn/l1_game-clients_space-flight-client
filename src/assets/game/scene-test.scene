@@ -11,7 +11,7 @@
   },
   {
     "__type__": "cc.Scene",
-    "_name": "scene-2d",
+    "_name": "scene-test",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": null,
@@ -190,7 +190,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 393,
+    "_orthoHeight": 453.1017857142857,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -681,12 +681,12 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "1d44068b-0289-4592-8c69-afceeec46051@f9941",
+      "__uuid__": "99439bcf-0acd-4701-a3bd-8e671e2fa5fb@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -832,7 +832,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -1182,7 +1181,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -1836,12 +1834,12 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "1d44068b-0289-4592-8c69-afceeec46051@f9941",
+      "__uuid__": "99439bcf-0acd-4701-a3bd-8e671e2fa5fb@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -2128,7 +2126,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -2350,7 +2347,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -3055,7 +3052,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [],
     "_useTint": false,
     "_debugMesh": false,
@@ -4669,7 +4665,6 @@
     "_timeScale": 1,
     "_preCacheMode": 0,
     "_cacheMode": 0,
-    "_defaultCacheMode": 0,
     "_sockets": [
       {
         "__id__": 121
@@ -5184,6 +5179,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": "ffsi2tauNLk6/VOaaSpusk"
   },
   {
@@ -5487,6 +5505,29 @@
     "_isUnderline": false,
     "_underlineHeight": 2,
     "_cacheMode": 0,
+    "_enableOutline": false,
+    "_outlineColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_outlineWidth": 2,
+    "_enableShadow": false,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_shadowOffset": {
+      "__type__": "cc.Vec2",
+      "x": 2,
+      "y": 2
+    },
+    "_shadowBlur": 2,
     "_id": "f3kA9ShQpDC5boMrtvLVEA"
   },
   {
@@ -5854,6 +5895,9 @@
     "lightProbeInfo": {
       "__id__": 165
     },
+    "postSettings": {
+      "__id__": 166
+    },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
   },
@@ -5916,6 +5960,7 @@
       "z": 0
     },
     "_distance": 0,
+    "_planeBias": 1,
     "_shadowColor": {
       "__type__": "cc.Color",
       "r": 76,
@@ -5998,5 +6043,9 @@
     "_showConvex": false,
     "_data": null,
     "_lightProbeSphereVolume": 1
+  },
+  {
+    "__type__": "cc.PostSettingsInfo",
+    "_toneMappingType": 0
   }
 ]
