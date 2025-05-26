@@ -3,7 +3,7 @@ import { LogStore } from "db://shared-components/game/scripts/stores/log-store";
 
 import { sharedContainer } from "../../scripts/shared-container";
 
-export const GAME_NAME = "Spaceflight";
+const GAME_NAME = "Spaceflight";
 
 export const settings = {
     id: 73,
