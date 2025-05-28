@@ -175,7 +175,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 399.78183962264154,
+    "_orthoHeight": 527.5471698113208,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -328,7 +328,10 @@
     "propertyPath": [
       "config"
     ],
-    "value": null
+    "value": {
+      "__uuid__": "e2e1584f-e671-40f7-bdaf-f786290a91df",
+      "__expectedType__": "cc.JsonAsset"
+    }
   },
   {
     "__type__": "cc.TargetInfo",

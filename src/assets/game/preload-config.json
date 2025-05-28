@@ -1,0 +1,13 @@
+{
+    "others": { 
+        "resources": [
+            "fonts/big-money-font.png",
+            "fonts/count-down-font.png",
+            "fonts/multiplier-font.png",
+            "fonts/multiplier-font-1.png"
+        ] 
+    },
+    "localized": {
+        "resources": {}
+    }
+}
