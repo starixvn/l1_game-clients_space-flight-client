@@ -10,4 +10,5 @@ window.envConfig = {
     subDirectory: "uat",
     SGConnectSubDomain: "l1uatconnectsite",
     storagePrefixKey: "spaceflight",
+    clientSubDomain: "l1uatclient",
 };

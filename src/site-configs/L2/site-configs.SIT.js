@@ -11,4 +11,5 @@ window.envConfig = {
     SGConnectSubDomain: "l2-connect-sit",
     defaultLanguage: "en",
     storagePrefixKey: "spaceflight",
+    clientSubDomain: "l2uatclient",
 };

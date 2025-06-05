@@ -10,4 +10,5 @@ window.envConfig = {
     subDirectory: "sit",
     SGConnectSubDomain: "l1sitconnectsite",
     storagePrefixKey: "spaceflight",
+    clientSubDomain: "l1uatclient",
 };
