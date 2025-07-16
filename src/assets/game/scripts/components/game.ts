@@ -4,7 +4,8 @@ import Observer from "observer";
 
 import GameCrashComponent from "../../../../extensions/shared-components/assets/game-crash/scripts/components/game-crash-component";
 import { siteConfigs } from "../../../scripts/site-configs";
-import { containerOptions, settings } from "../game-settings";
+import { settings } from "../game-settings";
+import { containerOptions } from "../containerOptions";
 import "./../../../resources/i18n";
 
 startGame(settings.name, containerOptions, siteConfigs);

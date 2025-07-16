@@ -24,7 +24,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         proxyPath: "spaceflight",
         route: "spaceflight",
     },
-    mainObserverNamespace: "Spaceflight",
     tolgeeUrl: "",
     storagePrefixKey: "spaceflight",
 };
