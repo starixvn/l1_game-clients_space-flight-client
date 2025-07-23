@@ -16,7 +16,7 @@ const defaultConfig: gc.Configs.SiteConfigs = {
     ssl: true,
     subDomain: "l2-proxy",
     env: "LOCAL",
-    subGuideDomain: "l1-guide-2",
+    subGuideDomain: "l2-guide",
     SGConnectSubDomain: "connectsite",
     enableMsgpackParserAllGames: false,
     enableMsgpackParserOnNotification: false,
@@ -24,7 +24,6 @@ const defaultConfig: gc.Configs.SiteConfigs = {
         proxyPath: "spaceflight",
         route: "spaceflight",
     },
-    mainObserverNamespace: "Spaceflight",
     tolgeeUrl: "",
     storagePrefixKey: "spaceflight",
 };
