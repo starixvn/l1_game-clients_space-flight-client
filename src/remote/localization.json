@@ -4,17 +4,19 @@
         "id": "PENERBANGAN\nANTARIKSA",
         "th": "การบินอวกาศ",
         "vi": "PHI THUYỀN\nKHÔNG GIAN",
-        "zh_cn": "PHI THUYỀN\nKHÔNG GIAN",
+        "zh_cn": "航天",
         "zh_tw": "航天",
-        "ja": "宇宙飛行"
+        "ja": "宇宙飛行",
+        "es": "Vuelo Espacial"
     },
     "gameNames": {
         "en": "Spaceflight",
         "id": "Penerbangan Antariksa",
         "th": "การบินอวกาศ",
         "vi": "Phi Thuyền Không Gian",
-        "zh_cn": "Phi Thuyền Không Gian",
+        "zh_cn": "航天",
         "zh_tw": "航天",
-        "ja": "スペースフライト"
+        "ja": "スペースフライト",
+        "es": "Vuelo Espacial"
     }
 }
